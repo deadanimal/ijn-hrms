@@ -1,0 +1,186 @@
+<div class="header pb-6">
+    <div class=" container-fluid">
+        <div class=" header-body">
+            <div class=" row align-items-center py-4">
+                <div class=" col-lg-6 col-7">
+                    <h6 class=" h2 text-dark d-inline-block mb-0">Leave Management</h6>
+
+                    <nav aria-label="breadcrumb" class=" d-none d-md-inline-block ml-md-4">
+                        <ol class=" breadcrumb breadcrumb-links breadcrumb-dark">
+                            <li class=" breadcrumb-item">
+                                <a href="javascript:void(0)"> <i class="far fa-calendar-check text-dark"> </i> </a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div class=" row">
+                <div class="col-xl-2 col-md-6">
+                    <div class="card card-stats">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <span class="h2 font-weight-bold mb-0 text-center text-green"> 142 </span>
+                                    <h5 class="card-title text-uppercase text-muted mb-0 text-center">
+                                        Personal Leave
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6">
+                    <div class="card card-stats">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <span class="h2 font-weight-bold mb-0 text-center text-orange"> 76 </span>
+                                    <h5 class="card-title text-uppercase text-muted mb-0 text-center">
+                                        Casual Leave
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6">
+                    <div class="card card-stats">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <span class="h2 font-weight-bold mb-0 text-center text-purple"> 53 </span>
+                                    <h5 class="card-title text-uppercase text-muted mb-0 text-center">
+                                        Sick Leave
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6">
+                    <div class="card card-stats">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <span class="h2 font-weight-bold mb-0 text-center text-yellow"> 47 </span>
+                                    <h5 class="card-title text-uppercase text-muted mb-0 text-center">
+                                        Privilege Leave
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6">
+                    <div class="card card-stats">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <span class="h2 font-weight-bold mb-0 text-center text-indigo"> 24 </span>
+                                    <h5 class="card-title text-uppercase text-muted mb-0 text-center">
+                                        Vacation
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-6">
+                    <div class="card card-stats">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col text-center">
+                                    <span class="h2 font-weight-bold mb-0 text-center text-red"> 14 </span>
+                                    <h5 class="card-title text-uppercase text-muted mb-0 text-center">
+                                        Childcare
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mt--6">
+    <div class="row">
+        <div class="col-lg-5">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header py-3 bg-secondary">
+                            <h4 class="m-0">Leave Types Chart</h4>
+                        </div>
+                        <div id="chartdiv" style="width: 100%; height: 400px"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header py-3 bg-secondary">
+                            <h4 class="m-0">Approval Chart</h4>
+                        </div>
+                        <div id="chartdiv1" style="width: 100%; height: 400px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-7">
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header bg-secondary py-3">
+                            <h4 class="m-0">Apply Leave</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="form-control-label">Employee ID</label>
+                                <input class="form-control form-control-sm" placeholder="Enter employee ID">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label">Leave type</label>
+                                <select class="form-control form-control-sm custom-select custom-select-sm">
+                                    <option selected hidden>Please select leave type</option>
+                                    <option>Sick</option>
+                                    <option>Vacation</option>
+                                    <option>Childcare</option>
+                                </select>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label class="form-control-label">From</label>
+                                        <input class="form-control form-control-sm" placeholder="Pick leave start date" type="month">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label class="form-control-label">To</label>
+                                        <input class="form-control form-control-sm" placeholder="Pick leave end date" type="month">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-control-label">Reason for leave</label>
+                                <textarea class="form-control form-control-sm" placeholder="Enter reason"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-header py-3 bg-secondary">
+                            <h4 class="m-0">Total Leave by Month</h4>
+                        </div>
+                        <div id="chartdiv2" style="width: 100%; height: 400px"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
