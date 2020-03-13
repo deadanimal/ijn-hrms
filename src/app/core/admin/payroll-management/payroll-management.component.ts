@@ -27,19 +27,19 @@ export class PayrollManagementComponent implements OnInit {
 
     // Add data
     chart.data = [{
-      "month": "January",
+      "month": "Jan",
       "year2017": 3.5,
       "year2018": 4.2
     }, {
-      "month": "February",
+      "month": "Feb",
       "year2017": 1.7,
       "year2018": 3.1
     }, {
-      "month": "March",
+      "month": "Mar",
       "year2017": 2.8,
       "year2018": 2.9
     }, {
-      "month": "April",
+      "month": "Apr",
       "year2017": 2.6,
       "year2018": 2.3
     }, {
@@ -47,19 +47,19 @@ export class PayrollManagementComponent implements OnInit {
       "year2017": 1.4,
       "year2018": 2.1
     }, {
-      "month": "June",
+      "month": "Jun",
       "year2017": 2.6,
       "year2018": 4.9
     }, {
-      "month": "July",
+      "month": "Jul",
       "year2017": 6.4,
       "year2018": 7.2
     }, {
-      "month": "August",
+      "month": "Aug",
       "year2017": 8,
       "year2018": 7.1
     }, {
-      "month": "September",
+      "month": "Sep",
       "year2017": 9.9,
       "year2018": 10.1
     }];

@@ -46,9 +46,6 @@ export class ClaimManagementComponent implements OnInit {
       "type": "Wellbeing",
       "visits": 1114
     }, {
-      "type": "Office",
-      "visits": 984
-    }, {
       "type": "Tender",
       "visits": 711
     }];
@@ -152,7 +149,7 @@ export class ClaimManagementComponent implements OnInit {
 
     // Set inner radius
     chart.innerRadius = am4core.percent(50);
-    chart.radius = am4core.percent(35)
+    chart.radius = am4core.percent(25)
 
     // Add and configure Series
     let pieSeries = chart.series.push(new am4charts.PieSeries());

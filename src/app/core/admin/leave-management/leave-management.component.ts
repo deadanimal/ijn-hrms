@@ -68,19 +68,19 @@ export class LeaveManagementComponent implements OnInit {
 
     // Add data
     chart.data = [{
-      "month": 'January',
+      "month": 'Jan',
       "approved": 23.5,
       "rejected": 18.1
     }, {
-      "month": 'February',
+      "month": 'Feb',
       "approved": 26.2,
       "rejected": 22.8
     }, {
-      "month": 'March',
+      "month": 'Mar',
       "approved": 30.1,
       "rejected": 23.9
     }, {
-      "month": 'April',
+      "month": 'Apr',
       "approved": 29.5,
       "rejected": 25.1
     }, {
@@ -136,40 +136,40 @@ export class LeaveManagementComponent implements OnInit {
     chart.hiddenState.properties.opacity = 0; // this makes initial fade in effect
 
     chart.data = [{
-      "month": "January",
+      "month": "Jan",
       "value": 325
     }, {
-      "month": "February",
+      "month": "Feb",
       "value": 182
     }, {
-      "month": "March",
+      "month": "Mar",
       "value": 109
     }, {
-      "month": "April",
+      "month": "Ap",
       "value": 122
     }, {
       "month": "May",
       "value": 122
     }, {
-      "month": "June",
+      "month": "Jun",
       "value": 114
     }, {
-      "month": "July",
+      "month": "Jul",
       "value": 284
     }, {
-      "month": "August",
+      "month": "Aug",
       "value": 311
     }, {
-      "month": "September",
+      "month": "Sep",
       "value": 265
     }, {
-      "month": "October",
+      "month": "Oct",
       "value": 380
     }, {
-      "month": "November",
+      "month": "Nov",
       "value": 443
     }, {
-      "month": "Deecmber",
+      "month": "Dec",
       "value": 441
     }];
 
